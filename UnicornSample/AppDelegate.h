@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EAGLSurface.h"
+#import "MainViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    UIWindow *window;
+    EAGLSurface *_surface;
+}
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet EAGLSurface *_surface;
+@property (nonatomic, retain) IBOutlet MainViewController *mainViewController;
 
 @end

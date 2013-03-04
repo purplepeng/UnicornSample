@@ -21,6 +21,11 @@
 		A066D16916E4438E001D90F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A066D14A16E4438D001D90F7 /* Foundation.framework */; };
 		A066D17116E4438E001D90F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A066D16F16E4438E001D90F7 /* InfoPlist.strings */; };
 		A066D17416E4438E001D90F7 /* UnicornSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A066D17316E4438E001D90F7 /* UnicornSampleTests.m */; };
+		A066D17F16E4476E001D90F7 /* EAGLSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = A066D17E16E4476E001D90F7 /* EAGLSurface.m */; };
+		A066D18116E4479A001D90F7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A066D18016E4479A001D90F7 /* OpenGLES.framework */; };
+		A066D18316E44BAA001D90F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A066D18216E44BAA001D90F7 /* QuartzCore.framework */; };
+		A066D18816E44F2E001D90F7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A066D18716E44F2E001D90F7 /* MainViewController.m */; };
+		A066D18C16E4551C001D90F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A066D18B16E4551C001D90F7 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,14 @@
 		A066D17016E4438E001D90F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A066D17216E4438E001D90F7 /* UnicornSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnicornSampleTests.h; sourceTree = "<group>"; };
 		A066D17316E4438E001D90F7 /* UnicornSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnicornSampleTests.m; sourceTree = "<group>"; };
+		A066D17D16E4476E001D90F7 /* EAGLSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLSurface.h; sourceTree = "<group>"; };
+		A066D17E16E4476E001D90F7 /* EAGLSurface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLSurface.m; sourceTree = "<group>"; };
+		A066D18016E4479A001D90F7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A066D18216E44BAA001D90F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A066D18516E44CE2001D90F7 /* testUnicorn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testUnicorn.h; path = ../../../../Downloads/fwdoitobjstyle/testUnicorn.h; sourceTree = "<group>"; };
+		A066D18616E44F2E001D90F7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A066D18716E44F2E001D90F7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A066D18B16E4551C001D90F7 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A066D18316E44BAA001D90F7 /* QuartzCore.framework in Frameworks */,
+				A066D18116E4479A001D90F7 /* OpenGLES.framework in Frameworks */,
 				A066D14916E4438D001D90F7 /* UIKit.framework in Frameworks */,
 				A066D14B16E4438D001D90F7 /* Foundation.framework in Frameworks */,
 				A066D14D16E4438D001D90F7 /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A066D14E16E4438D001D90F7 /* UnicornSample */,
+				A066D18416E44CC8001D90F7 /* Other Sources */,
 				A066D16C16E4438E001D90F7 /* UnicornSampleTests */,
 				A066D14716E4438D001D90F7 /* Frameworks */,
 				A066D14616E4438D001D90F7 /* Products */,
@@ -101,6 +117,8 @@
 		A066D14716E4438D001D90F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A066D18216E44BAA001D90F7 /* QuartzCore.framework */,
+				A066D18016E4479A001D90F7 /* OpenGLES.framework */,
 				A066D14816E4438D001D90F7 /* UIKit.framework */,
 				A066D14A16E4438D001D90F7 /* Foundation.framework */,
 				A066D14C16E4438D001D90F7 /* CoreGraphics.framework */,
@@ -112,6 +130,10 @@
 		A066D14E16E4438D001D90F7 /* UnicornSample */ = {
 			isa = PBXGroup;
 			children = (
+				A066D18616E44F2E001D90F7 /* MainViewController.h */,
+				A066D18716E44F2E001D90F7 /* MainViewController.m */,
+				A066D17D16E4476E001D90F7 /* EAGLSurface.h */,
+				A066D17E16E4476E001D90F7 /* EAGLSurface.m */,
 				A066D15716E4438E001D90F7 /* AppDelegate.h */,
 				A066D15816E4438E001D90F7 /* AppDelegate.m */,
 				A066D14F16E4438D001D90F7 /* Supporting Files */,
@@ -150,6 +172,15 @@
 				A066D16F16E4438E001D90F7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A066D18416E44CC8001D90F7 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A066D18516E44CE2001D90F7 /* testUnicorn.h */,
+				A066D18B16E4551C001D90F7 /* MainWindow.xib */,
+			);
+			name = "Other Sources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +258,7 @@
 				A066D15B16E4438E001D90F7 /* Default.png in Resources */,
 				A066D15D16E4438E001D90F7 /* Default@2x.png in Resources */,
 				A066D15F16E4438E001D90F7 /* Default-568h@2x.png in Resources */,
+				A066D18C16E4551C001D90F7 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +295,8 @@
 			files = (
 				A066D15516E4438E001D90F7 /* main.m in Sources */,
 				A066D15916E4438E001D90F7 /* AppDelegate.m in Sources */,
+				A066D17F16E4476E001D90F7 /* EAGLSurface.m in Sources */,
+				A066D18816E44F2E001D90F7 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
