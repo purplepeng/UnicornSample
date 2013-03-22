@@ -471,6 +471,7 @@
 				A066D17916E4438E001D90F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A066D17A16E4438E001D90F7 /* Build configuration list for PBXNativeTarget "UnicornSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +480,7 @@
 				A066D17C16E4438E001D90F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

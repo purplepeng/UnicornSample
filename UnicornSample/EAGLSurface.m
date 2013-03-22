@@ -19,14 +19,12 @@
     if (self) {
         //Catch it
         CAEAGLLayer* eaglLayer = (CAEAGLLayer *)[self layer];
-        
         //Configuration
         NSDictionary* config = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:NO],
                                 kEAGLDrawablePropertyRetainedBacking,
                                 kEAGLColorFormatRGB565,
                                 kEAGLDrawablePropertyColorFormat,
                                 nil];
-        
         //Set Properties
         [eaglLayer setOpaque:YES];
         [eaglLayer setDrawableProperties:config];
